@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cards {
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(161, 128, 84);
+  border-radius: 15px;
+  width: 350px;
+  font-weight: bold;
+  padding: 10px;
+  font-size: 1.3rem;
+  height: 60px;
+}
+
+.delete-btn {
+  padding: 0;
+  border: 0;
+}
+
+.md-delete{
+  font-size: 1.3rem;
+}
+
+.input {
+  height: 60px;
+  margin: 10px;
+  width: 300px;
+  font-size: 1.3rem;
+}
